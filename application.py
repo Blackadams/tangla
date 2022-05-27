@@ -9,7 +9,7 @@ application = Flask(__name__)
 
 @application.route("/about")
 def about():
-    return render_template("about.html")
+    return render_template("tangla/about.html")
 
 
 # @application.route("/hello")
